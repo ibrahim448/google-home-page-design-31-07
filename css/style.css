@@ -1,0 +1,70 @@
+/*********************GOOGLE FONT********************/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');
+
+/*====================COMMON STYLE=====================*/
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header-btn{
+    background: #4584ef;
+    border: none;
+    outline: none;
+    padding: 0px 10px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.banner{
+    height: 80vh;
+}
+.middle-item{
+    width: 668px;
+}
+.form-control{
+    width: 100% !important;
+}
+.search-icon{
+    position: relative;
+}
+.search-icon::before{
+    content: url(../images/search.png);
+    position: absolute;
+    top: 10px;
+    left: 15px;
+}
+.search-icon::after{
+    content: url(../images/mic.png);
+    position: absolute;
+    top: 10px;
+    right: 15px;
+}
+
+.footer-item span{
+    cursor: pointer;
+}
+.footer-item-buttom span{
+   margin-left: 306px;
+}
+
+@media only screen and (max-width:576px) {
+    .navbar-nav{
+        flex-direction: row;
+    }
+    .nav-item{
+        margin-left: 15px;
+    }
+    .footer-item-buttom span{
+        margin-left: 2px;
+     }
+}
